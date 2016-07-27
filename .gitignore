@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.DS_Store
+dist/
+CodeDeployKey.pem
+certificate.crt
+privatekey.key
+rootkey.csv
