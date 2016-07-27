@@ -27,7 +27,7 @@ var router = function() {
             ];
 
             var role = null;
-            var isAuthenticated = users.reduce((isAuth, user) => {
+            var isAuthenticated = users.reduce(function(isAuth, user){
                 if(user.username == req.body.uname && user.password == req.body.pwd) {
                     isAuth = true;
                     role = user.role;
